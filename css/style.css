@@ -101,6 +101,7 @@ body {
 }
 
 .btn-outline-dark {
+    text-transform: uppercase;
     color: #000 !important;
     border-width: 2px;
     border-color: #000 !important;
@@ -109,4 +110,57 @@ body {
 .btn-outline-dark:hover {
     color: #fff !important;
     background-color: #000 !important;
+}
+
+
+/* Contact */
+
+.contact {
+    padding: 0.75rem 1.0625rem;
+}
+
+.contact-title {
+    font-style: italic;
+    font-size: 1.75rem;
+    font-weight: 300;
+    padding-bottom: 2rem;
+}
+
+.contact-features,
+.contact-info {
+    font-weight: 500;
+    font-size: 0.875rem;
+    line-height: 0.9;
+}
+
+.contact-features {
+    padding-bottom: 1.5rem;
+    color: #000;
+}
+
+.contact-info {
+    color: #999;
+}
+
+.section-end-contact {
+    margin-top: 6.25rem !important;
+}
+
+
+/* Footer */
+
+.footer-info {
+    text-align: center;
+    margin: 0 auto;
+    padding: 1.3rem 0 3.5rem 0;
+    font-size: 0.875rem;
+}
+
+.footer-link {
+    color: #999;
+}
+
+.footer-link:hover {
+    text-decoration: none;
+    color: #000;
 }
