@@ -1,0 +1,80 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    font-size: 0.9375rem;
+    line-height: 1.6em;
+    letter-spacing: .02em;
+    font-weight: 300;
+    font-style: normal;
+    background-color: #fff;
+}
+
+
+/* Navbar */
+
+.navbar {
+    padding: 0.875rem 0;
+}
+
+.navbar-nav {
+    padding: 0.9375rem 0;
+}
+
+.navbar-brand {
+    font-size: 1.625rem;
+    font-weight: 500;
+    margin-right: 50px;
+    color: #000;
+}
+
+.navbar-brand:hover {
+    color: #999 !important;
+}
+
+.nav-link {
+    font-size: 0.75rem;
+    letter-spacing: .12em;
+    font-weight: 500;
+    font-style: normal;
+    color: #999;
+}
+
+.nav-link:hover {
+    color: #000;
+}
+
+
+/* Header */
+
+.height-max {
+    min-height: 70vh;
+    background: url("https://images.pexels.com/photos/1457842/pexels-photo-1457842.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260") center center no-repeat;
+}
+
+.header-title {
+    font-size: 2.3rem;
+    letter-spacing: 0.2em;
+    color: #fff;
+    text-align: center;
+}
+
+
+/* Testimonials Title */
+
+.testimonials {
+    padding: 6.25rem 0;
+}
+
+.testimonials-title {
+    font-size: 2.25rem;
+    font-weight: 200;
+    text-align: center;
+    line-height: 1.5;
+}
+
+
+/* Section End Hr */
+
+.section-end {
+    width: 88%;
+    margin-bottom: 6rem;
+}
