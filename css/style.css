@@ -8,6 +8,10 @@ body {
     background-color: #fff;
 }
 
+h3 {
+    line-height: 0.6 !important;
+}
+
 
 /* Navbar */
 
@@ -130,7 +134,6 @@ body {
 .contact-info {
     font-weight: 500;
     font-size: 0.875rem;
-    line-height: 0.9;
 }
 
 .contact-features {
@@ -140,6 +143,11 @@ body {
 
 .contact-info {
     color: #999;
+}
+
+.contact-info:hover {
+    color: #000;
+    text-decoration: none;
 }
 
 .section-end-contact {
